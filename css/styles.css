@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body, main, article, div, p, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+image {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #F4D04E;
+}
+
+.blog-card {
+  box-shadow: 8px 8px 0 0 #000;
+  width: 384px;
+  border: 1px solid currentColor;
+  border-radius: 20px;
+  padding: 24px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  font-family: "Figtree", sans-serif;
+  color: #111111;
+  background-color: #fff;
+}
+
+.blog-img {
+  margin-bottom: 24px;
+  border-radius: 10px;
+}
+
+.blog-label {
+  display: inline-block;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  padding: 4px 12px;
+  font-size: 1.4rem;
+  font-weight: 800;
+  background-color: #F4D04E;
+}
+
+.blog-published {
+  margin-bottom: 12px;
+  font-size: 1.4rem;
+}
+
+.blog-title {
+  margin-bottom: 12px;
+  font-size: 2.4rem;
+  font-weight: 800;
+}
+
+.blog-description {
+  margin-bottom: 24px;
+  font-size: 1.6rem;
+  color: #6B6B6B;
+}
+
+.blog-author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.blog-author-photo {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+
+.blog-author-name {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
